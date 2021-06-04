@@ -49,6 +49,7 @@ p{
     padding: 20px;
     display: inline-block;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .btn:hover{
@@ -60,6 +61,12 @@ p{
     background: #f4f4f4;
     color: #333;
 }
+
+.btn-dark{
+    color: #f4f4f4;
+    background: #333;
+}
+
 
 .bg-dark{
 
@@ -252,9 +259,28 @@ p{
     border-radius: 50%;
   }
 
+#contact-form .form-group{
+    margin-bottom: 20px;
+}
 
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
 
+#contact-form input,#contact-form textarea{
+    width: 100%;
+    padding:10px;
+    border:1px #ddd solid;
+}
+#contact-form textarea{
+    height: 200px;
+}
 
+#contact-form input:focus,#contact-form textarea:focus{
+    outline: none;
+    border-color: #f7c0f7;
+}
 
 /* footer */
 #main-footer{
